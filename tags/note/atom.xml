@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title> - note</title>
+    <link rel="self" type="application/atom+xml" href="https://pascalcombier.github.io/tags/note/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://pascalcombier.github.io"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-02-22T00:00:00+00:00</updated>
+    <id>https://pascalcombier.github.io/tags/note/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Formatting dates</title>
+        <published>2025-02-22T00:00:00+00:00</published>
+        <updated>2025-02-22T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://pascalcombier.github.io/posts/formatting-dates/"/>
+        <id>https://pascalcombier.github.io/posts/formatting-dates/</id>
+        
+        <content type="html" xml:base="https://pascalcombier.github.io/posts/formatting-dates/">&lt;p&gt;It&#x27;s well-known that different countries use different date formats. A funny
+thing is that the format used in the USA is even different from the format used
+in the UK.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;01&#x2F;02&#x2F;25 means January 2nd in the USA&lt;&#x2F;li&gt;
+&lt;li&gt;01&#x2F;02&#x2F;25 means the 1st of February in the UK&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;There is a &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;List_of_date_formats_by_country&quot;&gt;huge list of date formats&lt;&#x2F;a&gt; on Wikipedia. The format differences
+lead to obvious misunderstandings. In many countries, the &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Slash_(punctuation)&quot;&gt;slash character&lt;&#x2F;a&gt;
+is used to separate years, months, and days.  But the order of the fields
+varies. For that reason, it&#x27;s impossible to differentiate between February 1st
+or January 2nd without knowing the country. Worse: this separator character
+cannot be used in file names on most computers, Windows will complain with the
+following message:&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A file name can&#x27;t contain any of the following characters: \ &#x2F; : * ? &quot; &amp;lt; &amp;gt; |&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;What is not well-known is that &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;ISO_8601&quot;&gt;ISO 8601&lt;&#x2F;a&gt; has been teaching us how to format
+dates since 1998! That document defines a standard way to format dates. Most
+people didn&#x27;t hear about it, even if most of us already saw those dates
+somewhere, on a receipt, on a website, or in a file.&lt;&#x2F;p&gt;
+&lt;p&gt;The dates below are compliant with that International Standard:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;2025-02-16
+&lt;ul&gt;
+&lt;li&gt;4 digits for the year&lt;&#x2F;li&gt;
+&lt;li&gt;2 digits for the month&lt;&#x2F;li&gt;
+&lt;li&gt;2 digits for the day&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;2025-02-16T05:08:15
+&lt;ul&gt;
+&lt;li&gt;Same as above, with a specified time, expressed in local time&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;2025-02-16T10:18:15.394
+&lt;ul&gt;
+&lt;li&gt;Same as above, with the seconds expressed with a decimal point&lt;&#x2F;li&gt;
+&lt;li&gt;There is no limit on the number of digits after the decimal point&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;2025-02-16T05:08:15Z
+&lt;ul&gt;
+&lt;li&gt;The letter &lt;code&gt;Z&lt;&#x2F;code&gt;  indicates that the time is in &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Coordinated_Universal_Time&quot;&gt;UTC&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;2025-02-16T14:40:00+01:00
+&lt;ul&gt;
+&lt;li&gt;One can even define the timezone: here it&#x27;s Paris time UTC+01:00&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;In essence:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;To avoid confusion, the slash separator is replaced by an hyphen&lt;&#x2F;li&gt;
+&lt;li&gt;The number of digits for elements is fixed
+&lt;ul&gt;
+&lt;li&gt;Year is always composed of 4 digits&lt;&#x2F;li&gt;
+&lt;li&gt;Month is always composed of 2 digits&lt;&#x2F;li&gt;
+&lt;li&gt;Day is always composed of 2 digits&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;An optional timestamp can be added&lt;&#x2F;li&gt;
+&lt;li&gt;An optional timezone can be added&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;hr &#x2F;&gt;
+&lt;h1 id=&quot;software-related-notes&quot;&gt;Software-related notes&lt;&#x2F;h1&gt;
+&lt;p&gt;In most filesystems, a file has multiple properties such as a name, a creation
+date, an access date, and similar attributes. The creation date is not always a
+reliable information, as the file might have been copied across multiple
+computers, sent through emails or websites, and the recorded date may not be
+accurate. This is why photos often include additional metadata that contains the
+creation date. On the other hand, a file name is usually quite reliable, and we
+can embed the creation date in the file name.&lt;&#x2F;p&gt;
+&lt;p&gt;To achieve that, one could simply use the prefix &lt;code&gt;YYYY-MM-DD&lt;&#x2F;code&gt;. The great outcome
+is that after sorting the files by name, the files will be grouped by year,
+month, day and then by name. Files from 2025 will appear after 2024, file from
+February will appear after January, and so on.&lt;&#x2F;p&gt;
+&lt;pre&gt;&lt;code&gt;2025-02-22-MyFile1.docx
+2025-02-23-MyFile2.docx
+2025-02-24-MyFile3.docx
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;While it&#x27;s sounds possible to manually name the files with the &lt;code&gt;YYYY-MM-DD&lt;&#x2F;code&gt;
+prefix, it does not sounds reasonable to manually name the files with a full ISO
+date. But a computer program could do that easily. We saw that digits are fixed
+for years, months, days and time. Because of this, the separators could be
+omitted. The date become less readable for an human, but can be stored in a
+filename.&lt;&#x2F;p&gt;
+&lt;pre&gt;&lt;code&gt;20250218T050815Z-screenshot-in-local-time.png
+20250218T144000+0100-screenshot-in-timezone.png
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;As of 2025, most of date software libraries will provide functions to interface
+with ISO dates, in JavaScript the function is named &lt;a href=&quot;https:&#x2F;&#x2F;developer.mozilla.org&#x2F;en-US&#x2F;docs&#x2F;Web&#x2F;JavaScript&#x2F;Reference&#x2F;Global_Objects&#x2F;Date&#x2F;toISOString&quot;&gt;Date.toISOString&lt;&#x2F;a&gt;:&lt;&#x2F;p&gt;
+&lt;pre id=&quot;blog-date&quot;&gt;
+const TimeNow = new Date().toISOString();
+console.log(TimeNow);
+--&gt; 
+&lt;&#x2F;pre&gt;
+&lt;p&gt;&lt;button id=&quot;button-current-date&quot;&gt;Execute JavaScript Example&lt;&#x2F;button&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>
