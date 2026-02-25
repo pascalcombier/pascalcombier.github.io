@@ -29,8 +29,8 @@ in the UK.&lt;&#x2F;p&gt;
 &lt;li&gt;01&#x2F;02&#x2F;25 means January 2nd in the USA&lt;&#x2F;li&gt;
 &lt;li&gt;01&#x2F;02&#x2F;25 means the 1st of February in the UK&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;p&gt;There is a &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;List_of_date_formats_by_country&quot;&gt;huge list of date formats&lt;&#x2F;a&gt; on Wikipedia. The format differences
-lead to obvious misunderstandings. In many countries, the &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Slash_(punctuation)&quot;&gt;slash character&lt;&#x2F;a&gt;
+&lt;p&gt;There is a &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;List_of_date_formats_by_country&quot;&gt;huge list of date formats&lt;&#x2F;a&gt; on Wikipedia. The format differences
+lead to obvious misunderstandings. In many countries, the &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Slash_(punctuation)&quot;&gt;slash character&lt;&#x2F;a&gt;
 is used to separate years, months, and days.  But the order of the fields
 varies. For that reason, it&#x27;s impossible to differentiate between February 1st
 or January 2nd without knowing the country. Worse: this separator character
@@ -39,7 +39,7 @@ following message:&lt;&#x2F;p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;A file name can&#x27;t contain any of the following characters: \ &#x2F; : * ? &quot; &amp;lt; &amp;gt; |&lt;&#x2F;p&gt;
 &lt;&#x2F;blockquote&gt;
-&lt;p&gt;What is not well-known is that &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;ISO_8601&quot;&gt;ISO 8601&lt;&#x2F;a&gt; has been teaching us how to format
+&lt;p&gt;What is not well-known is that &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;ISO_8601&quot;&gt;ISO 8601&lt;&#x2F;a&gt; has been teaching us how to format
 dates since 1998! That document defines a standard way to format dates. Most
 people didn&#x27;t hear about it, even if most of us already saw those dates
 somewhere, on a receipt, on a website, or in a file.&lt;&#x2F;p&gt;
@@ -65,7 +65,7 @@ somewhere, on a receipt, on a website, or in a file.&lt;&#x2F;p&gt;
 &lt;&#x2F;li&gt;
 &lt;li&gt;2025-02-16T05:08:15Z
 &lt;ul&gt;
-&lt;li&gt;The letter &lt;code&gt;Z&lt;&#x2F;code&gt;  indicates that the time is in &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Coordinated_Universal_Time&quot;&gt;UTC&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;The letter &lt;code&gt;Z&lt;&#x2F;code&gt;  indicates that the time is in &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Coordinated_Universal_Time&quot;&gt;UTC&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;&#x2F;li&gt;
 &lt;li&gt;2025-02-16T14:40:00+01:00
@@ -115,7 +115,7 @@ filename.&lt;&#x2F;p&gt;
 &lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;hr &#x2F;&gt;
 &lt;p&gt;As of 2025, most of date software libraries will provide functions to interface
-with ISO dates, in JavaScript the function is named &lt;a href=&quot;https:&#x2F;&#x2F;developer.mozilla.org&#x2F;en-US&#x2F;docs&#x2F;Web&#x2F;JavaScript&#x2F;Reference&#x2F;Global_Objects&#x2F;Date&#x2F;toISOString&quot;&gt;Date.toISOString&lt;&#x2F;a&gt;:&lt;&#x2F;p&gt;
+with ISO dates, in JavaScript the function is named &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;developer.mozilla.org&#x2F;en-US&#x2F;docs&#x2F;Web&#x2F;JavaScript&#x2F;Reference&#x2F;Global_Objects&#x2F;Date&#x2F;toISOString&quot;&gt;Date.toISOString&lt;&#x2F;a&gt;:&lt;&#x2F;p&gt;
 &lt;pre id=&quot;blog-date&quot;&gt;
 const TimeNow = new Date().toISOString();
 console.log(TimeNow);
