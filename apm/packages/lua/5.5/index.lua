@@ -225,10 +225,164 @@ index = {
       }
     }
   },
+  ["penlight-1.3.1.zip"] = {
+    ["penlight-1.3.1"] = {
+      dependencies = {
+        "luafilesystem"
+      }
+    }
+  },
+  ["penlight-1.3.2.zip"] = {
+    ["penlight-1.3.2"] = {
+      dependencies = {
+        "luafilesystem"
+      }
+    }
+  },
+  ["penlight-1.4.0.zip"] = {
+    ["penlight-1.4.0"] = {
+      dependencies = {
+        "luafilesystem"
+      }
+    }
+  },
+  ["penlight-1.4.1.zip"] = {
+    ["penlight-1.4.1"] = {
+      dependencies = {
+        "luafilesystem"
+      }
+    }
+  },
+  ["penlight-1.5.0.zip"] = {
+    ["penlight-1.5.0"] = {
+      dependencies = {
+        "luafilesystem"
+      }
+    }
+  },
+  ["penlight-1.5.1.zip"] = {
+    ["penlight-1.5.1"] = {
+      dependencies = {
+        "luafilesystem"
+      }
+    }
+  },
+  ["penlight-1.5.2.zip"] = {
+    ["penlight-1.5.2"] = {
+      dependencies = {
+        "luafilesystem"
+      }
+    }
+  },
+  ["penlight-1.5.3.zip"] = {
+    ["penlight-1.5.3"] = {
+      dependencies = {
+        "luafilesystem"
+      }
+    }
+  },
+  ["penlight-1.5.4.zip"] = {
+    ["penlight-1.5.4"] = {
+      dependencies = {
+        "luafilesystem"
+      }
+    }
+  },
+  ["penlight-1.6.0.zip"] = {
+    ["penlight-1.6.0"] = {
+      dependencies = {
+        "luafilesystem"
+      }
+    }
+  },
+  ["penlight-1.7.0.zip"] = {
+    ["penlight-1.7.0"] = {
+      dependencies = {
+        "luafilesystem"
+      }
+    }
+  },
+  ["penlight-1.8.0.zip"] = {
+    ["penlight-1.8.0"] = {
+      dependencies = {
+        "luafilesystem"
+      }
+    }
+  },
+  ["penlight-1.8.1.zip"] = {
+    ["penlight-1.8.1"] = {
+      dependencies = {
+        "luafilesystem"
+      }
+    }
+  },
+  ["penlight-1.9.1.zip"] = {
+    ["penlight-1.9.1"] = {
+      dependencies = {
+        "luafilesystem"
+      }
+    }
+  },
+  ["penlight-1.9.2.zip"] = {
+    ["penlight-1.9.2"] = {
+      dependencies = {
+        "luafilesystem"
+      }
+    }
+  },
   ["penlight-1.10.0.zip"] = {
     ["penlight-1.10.0"] = {
       dependencies = {
         "luafilesystem"
+      }
+    }
+  },
+  ["penlight-1.11.0.zip"] = {
+    ["penlight-1.11.0"] = {
+      dependencies = {
+        "luafilesystem"
+      }
+    }
+  },
+  ["penlight-1.12.0.zip"] = {
+    ["penlight-1.12.0"] = {
+      dependencies = {
+        "luafilesystem"
+      }
+    }
+  },
+  ["penlight-1.13.0.zip"] = {
+    ["penlight-1.13.0"] = {
+      dependencies = {
+        "luafilesystem"
+      }
+    }
+  },
+  ["penlight-1.13.1.zip"] = {
+    ["penlight-1.13.1"] = {
+      dependencies = {
+        "luafilesystem"
+      }
+    }
+  },
+  ["penlight-1.14.0.zip"] = {
+    ["penlight-1.14.0"] = {
+      dependencies = {
+        "luafilesystem"
+      }
+    }
+  },
+  ["penlight-1.15.0.zip"] = {
+    ["penlight-1.15.0"] = {
+      dependencies = {
+        "luafilesystem"
+      }
+    }
+  },
+  ["uint-0.186.zip"] = {
+    ["uint-0.186"] = {
+      dependencies = {
+        "lua >= 5.1"
       }
     }
   }
