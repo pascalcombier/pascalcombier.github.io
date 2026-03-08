@@ -1,4 +1,4 @@
-fileformat = "apm-index-v1",
+fileformat = "apm-index-v1"
 index = {
   ["30log.zip"] = {
     ["30log-0.8.0"] = {
